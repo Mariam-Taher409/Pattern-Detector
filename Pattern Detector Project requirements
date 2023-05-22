@@ -1,0 +1,5 @@
+# pattern detector design
+- Design and implement a “Pattern Detector” module that is used to detect the following pattern: 11010
+(starting from the left). Pattern detectors have two types: overlapping and non-overlapping.
+- When receiving the stated pattern, the pattern_found output should be asserted for 1 clock cycle after
+receiving the last 0 bit of the pattern.
